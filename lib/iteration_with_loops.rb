@@ -5,7 +5,7 @@ weeks_lows = []                                       #empty array to shovel in 
                                    
   while outer_count < src.length do                   #while the starting index is less than the overall length of the outer array
   inner_count = 0                                     #inner index starting point for inner array
-  low_temp = 1000                                     #var to capture any integer lower than it starting at unrealistic number for data 
+  low_temp = 999999                                   #var to capture any integer lower than it starting at unrealistic number for data 
     
     while inner_count < src[outer_count].length do    #while current inner counter < actual length of the inner array then continue
       
